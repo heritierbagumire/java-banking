@@ -9,9 +9,12 @@
 <html>
 <head>
     <title>Exit</title>
+
 </head>
 <body>
 <input type="hidden" name="action" value="exit">
-<button type="submit">Exit Application</button>
+<ul>
+    <li><a href="login.jsp">Login again please</a></li>
+</ul>
 </body>
 </html>

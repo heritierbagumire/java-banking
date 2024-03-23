@@ -9,7 +9,7 @@
 <html>
 <head>
     <title>$Title$</title>
-  <link rel="stylesheet" href="styles.css">
+<%--  <link rel="stylesheet" href="styles.css">--%>
 </head>
 <body>
 <div class="container">
@@ -17,8 +17,10 @@
   <form action="banking" method="post">
 
     <input type="hidden" name="action" value="deposit">
-    <label for="username">Username: </label>
-    <input type="text" name="username" placeholder="Enter username" id="username">
+    <label for="email">Email: </label>
+    <input type="email" name="email" placeholder="Enter Email" id="email">
+    <label for="password">Password: </label>
+    <input type="password" name="password" placeholder="Enter Password" id="password">
     <label for="amount">Amount Needed</label>
     <input type="text" name="amount" placeholder="Enter amount" id="amount">
     <button type="submit">Deposit</button>

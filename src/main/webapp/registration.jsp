@@ -9,20 +9,19 @@
 <html>
 <head>
     <title>Registration</title>
-    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <div class="container">
     <h1 class="header">Sign up </h1>
-    <span>Create a better Future with a safe bank account.</span>
+    <span>Create a secure bank account with Awesome Bank.</span>
     <form action="register" method="post">
 
         <label for="username">UserName:</label>
-        <input type="text" placeholder="Daniella" id="username" name="username"><br>
+        <input type="text" placeholder="Your name" id="username" name="username"><br>
         <label for="email">Email :</label>
-        <input type="email" placeholder="daniellaganza30@gmail.com" name="email" id="email"><br>
+        <input type="email" placeholder="Your email" name="email" id="email"><br>
         <label for="tel">Phone :</label>
-        <input type="tel" placeholder="0788......" name="phone" id="tel"><br>
+        <input type="tel" placeholder="Your number" name="phone" id="tel"><br>
         <label for="password">Password</label>
         <input type="password" name="password" id="password"><br>
         <label for="accountType"> Account Type: </label>

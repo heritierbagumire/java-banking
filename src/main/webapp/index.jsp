@@ -4,12 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Banking Future - Home</title>
-    <link rel="stylesheet" type="text/css" href="index.css">
+    <title>Awesome Bank</title>
+
 </head>
 <body>
 <header class="header">
-    <h1 class="title">Banking Future</h1>
+    <h1 class="title">Awesome Bank 🏦</h1>
     <nav class="navigation">
         <ul class="nav-links">
             <li><a href="registration.jsp">Register</a></li>
