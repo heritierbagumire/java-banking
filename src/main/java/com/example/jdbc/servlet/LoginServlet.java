@@ -32,7 +32,7 @@ public class LoginServlet extends HttpServlet {
     }
 
     private boolean userInDB(String email, String password) {
-        String url = "jdbc:mysql://localhost:3306/banking"; // MYSQL JDBC URL
+        String url = "jdbc:mysql://localhost:3306/examin"; // MYSQL JDBC URL
         String user = "root"; // MYSQL username
         String accountPassword = ""; // MYSQL password
         try {

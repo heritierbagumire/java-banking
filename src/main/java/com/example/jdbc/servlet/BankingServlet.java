@@ -71,9 +71,9 @@ public class BankingServlet extends HttpServlet {
         String password = request.getParameter("password");
         int amount = Integer.parseInt(request.getParameter("amount"));
 
-        String url = "jdbc:mysql://localhost:3306/banking";
+        String url = "jdbc:mysql://localhost:3306/examin";
         String user = "root";
-        String accountPassword = "Life123!";
+        String accountPassword = "";
 
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
@@ -120,9 +120,9 @@ public class BankingServlet extends HttpServlet {
         String password = request.getParameter("password");
         int amount = Integer.parseInt(request.getParameter("amount"));
 
-        String url = "jdbc:mysql://localhost:3306/banking";
+        String url = "jdbc:mysql://localhost:3306/examin";
         String user = "root";
-        String accountPassword = "Life123!";
+        String accountPassword = "";
 
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
